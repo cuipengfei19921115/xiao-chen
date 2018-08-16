@@ -1,0 +1,249 @@
+body {
+  height: 9000px;
+  width: 100%;
+  background-color: #F1F1F1;
+}
+@media screen and (device-width: 280px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (device-width: 320px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (device-width: 360px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (device-width: 375px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+@media screen and (device-width: 414px) {
+  html {
+    font-size: 20.07px;
+  }
+}
+@media screen and (device-width: 640px) {
+  html {
+    font-size: 32px;
+  }
+}
+.header {
+  width: 100%;
+  background-color: #F7F7F7;
+  line-height: 1.375rem;
+}
+.header .s-left {
+  float: left;
+  margin-bottom: 7px;
+  width: 20%;
+}
+.header .s-left p {
+  margin-left: 0.625rem;
+  margin-top: 0.25rem;
+  color: #D3079E;
+  display: block;
+}
+.header .s-count {
+  float: left;
+  width: 60%;
+}
+.header .s-count > h3 {
+  margin-top: 0.25rem;
+  display: block;
+  margin-bottom: 7px;
+  font-size: 0.625ren;
+  text-align: center;
+}
+.header .s-right {
+  width: 20%;
+  float: right;
+}
+.header .s-right img {
+  width: 25px;
+  display: inline-block;
+  float: right;
+  margin-top: 0.25rem;
+  margin-right: 0.625rem;
+}
+.swiper-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+.swiper-container > ul {
+  list-style: none;
+}
+.swiper-slide img {
+  width: 100%;
+  display: block;
+}
+.nav {
+  width: 100%;
+  margin-bottom: 1.5%;
+}
+.nav .nav-z {
+  width: 98%;
+  background-color: pink;
+  margin: 0 auto;
+  margin-bottom: 1.5%;
+}
+.nav .nav_left li {
+  float: left;
+  list-style: none;
+  margin-right: 2%;
+  margin-top: 1.5%;
+  width: 32%;
+}
+.nav .nav_left li img {
+  width: 100%;
+}
+.nav .nav_left li:nth-of-type(3n) {
+  margin-right: 0;
+  float: right;
+}
+.qwe {
+  width: 100%;
+}
+.qwe .qwe-right {
+  border-top: 1px solid #DDDDDD;
+}
+.qwe .qwe-right li {
+  float: left;
+  list-style: none;
+  border-left: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  width: 25%;
+}
+.qwe .qwe-right li img {
+  width: 100%;
+}
+.l-son {
+  width: 100%;
+}
+.l-son .l-son-left {
+  float: left;
+  width: 50%;
+  border-bottom: 2px solid #DDD;
+}
+.l-son .l-son-left img {
+  width: 100%;
+}
+.l-son .l-son-right {
+  border-left: 2px solid #DDD;
+  width: 50%;
+  float: right;
+}
+.l-son .l-son-right .l-son-s {
+  width: 100%;
+  border-bottom: 2px solid #DDD;
+}
+.l-son .l-son-right .l-son-s img {
+  width: 100%;
+}
+.l-son .l-son-right .l-son-x {
+  width: 100%;
+  border-bottom: 2px solid #DDD;
+}
+.l-son .l-son-right .l-son-x img {
+  width: 100%;
+}
+.re {
+  width: 100%;
+  height: 4.6875rem;
+  background-color: #F1F1F1;
+  overflow: hidden;
+}
+.re h3 {
+  font-size: 1.875rem;
+  display: block;
+  margin-top: 1.90625rem;
+  line-height: ;
+}
+.piao {
+  width: 100%;
+}
+.piao .you-piao {
+  list-style: none;
+}
+.piao .you-piao li {
+  width: 100%;
+  border-bottom: 1px solid #DDD;
+}
+.piao .you-piao li img {
+  width: 100%;
+}
+.kong {
+  width: 100%;
+  height: 15px;
+  background-color: #F1F1F1;
+  border-bottom: 1px solid #DDD;
+}
+.week {
+  width: 100%;
+  height: 44px;
+  background-color: #F7F7F7;
+}
+.week .week-left {
+  width: 50%;
+  line-height: 44px;
+  float: left;
+  font-size: 1.875rem;
+}
+.week .week-left > span {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  height: 44px;
+  width: 71px;
+  border-bottom: 1px solid #D3079E;
+  color: #D3079E;
+}
+.week .week-left > span:hover {
+  border-bottom: 1px solid #D3079E;
+  color: #D3079E;
+}
+.week .week-right {
+  width: 50%;
+  float: left;
+  line-height: 44px;
+  font-size: 1.875rem;
+}
+.week .week-right > span {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  height: 44px;
+  width: 71px;
+}
+.week .week-right > span:hover {
+  border-bottom: 1px solid #D3079E;
+  color: #D3079E;
+}
+.music {
+  width: 100%;
+}
+.music .music-box {
+  list-style: none;
+}
+.music .music-box li {
+  width: 100%;
+  border-bottom: 1px solid #DDD;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+.music .music-box li img {
+  width: 100%;
+}
+.music .music-box li h4 {
+  display: block;
+  margin-top: 10px;
+}
+.music .music-box li p {
+  display: block;
+  margin-top: 5px;
+}
